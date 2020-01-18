@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-perosnal-blog/static/css/main.592be74d.chunk.css",
+    "main.js": "/my-perosnal-blog/static/js/main.ebb8c7be.chunk.js",
+    "main.js.map": "/my-perosnal-blog/static/js/main.ebb8c7be.chunk.js.map",
+    "runtime-main.js": "/my-perosnal-blog/static/js/runtime-main.e6e33594.js",
+    "runtime-main.js.map": "/my-perosnal-blog/static/js/runtime-main.e6e33594.js.map",
+    "static/js/2.0dd46608.chunk.js": "/my-perosnal-blog/static/js/2.0dd46608.chunk.js",
+    "static/js/2.0dd46608.chunk.js.map": "/my-perosnal-blog/static/js/2.0dd46608.chunk.js.map",
+    "index.html": "/my-perosnal-blog/index.html",
+    "precache-manifest.dbda8233c6c530e356127ef138c7b86c.js": "/my-perosnal-blog/precache-manifest.dbda8233c6c530e356127ef138c7b86c.js",
+    "service-worker.js": "/my-perosnal-blog/service-worker.js",
+    "static/css/main.592be74d.chunk.css.map": "/my-perosnal-blog/static/css/main.592be74d.chunk.css.map",
+    "static/js/2.0dd46608.chunk.js.LICENSE": "/my-perosnal-blog/static/js/2.0dd46608.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6e33594.js",
+    "static/js/2.0dd46608.chunk.js",
+    "static/css/main.592be74d.chunk.css",
+    "static/js/main.ebb8c7be.chunk.js"
+  ]
+}
