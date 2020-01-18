@@ -1,11 +1,12 @@
 import React from 'react'
+import banner2 from '../../img/banner2.jpeg'
 
 function Slider() {
     return (
         <div className="slider">
             <ul className="slides z-depth-2">
                 <li>
-                    <img src='/img/banner2.jpeg' alt=''/>
+                    <img src={banner2} alt=''/>
                     <div className="caption center-align">
                     <h3>This is our big Tagline!</h3>
                     <h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>
