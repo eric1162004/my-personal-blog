@@ -1,6 +1,6 @@
 {
   "name": "my-blog-app",
-  "homepage": "http://eric1162004.github.io/My-Blog"
+  "homepage": "http://eric1162004.github.io/My-Blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
