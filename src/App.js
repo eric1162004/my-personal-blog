@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import NavBar from './components/layout/Navbar'
+import Dashboard from './components/dashboard/Dashboard'
+import SignIn from './components/auth/SignIn'
+import SignUp from './components/auth/SignUp'
+import CreateBlog from './components/blogs/CreateBlog'
+import BlogDetails from './components/blogs/BlogDetails'
+import Footer from './components/layout/Footer'
+import Parallax from './components/layout/Parallax'
+
+class App extends Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <div className="App">
+
+          <NavBar />
+          
+          {/* Switch: only 1 route will be loaded at a time */}
+          <Switch>
+            
+            {/* exact: only load when the route matches exactly  */}
+            <Route exact path='/' component={Dashboard}/>
+            <Route path='/blog/:id' component={BlogDetails}/>
+            <Route path='/signin' component={SignIn}/>
+            <Route path='/signup' component={SignUp}/>
+            <Route path='/create' component={CreateBlog}/>
+          </Switch>
+
+          <Parallax/>
+
+          <Footer/>
+
+        </div>
+      </BrowserRouter>
+    )
+  }
 }
 
 export default App;
